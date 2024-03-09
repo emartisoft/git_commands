@@ -1,5 +1,5 @@
-Windows üzerinde \Users\USERNAME\Documents\GitHub içinde ilgili projene ait dizini oluştur.
-Bu örnekte git_commands olacak.
+Windows Ã¼zerinde \Users\USERNAME\Documents\GitHub iÃ§inde ilgili projene ait dizini oluÅŸtur.
+Bu Ã¶rnekte git_commands olacak.
 
 mkdir git_commands
 cd git_commands
@@ -7,25 +7,29 @@ cd git_commands
 git init
 
 code . 
-;VSCode ile ilgili dosyalarını oluştur
+;VSCode ile ilgili dosyalarÄ±nÄ± oluÅŸtur
 
 git status
 
 git add *
-; tüm dosyaları commitlenmiş hale getirmek için ekle
-; değişikllikleri görmek için git status kullan
+; tÃ¼m dosyalarÄ± commitlenmiÅŸ hale getirmek iÃ§in ekle
+; deÄŸiÅŸikllikleri gÃ¶rmek iÃ§in git status kullan
 
- git commit -m "ilk kayıt"
+ git commit -m "ilk kayÄ±t"
  git branch -M main
  git remote add origin https://github.com/emartisoft/git_commands.git
  git push -u origin main
 
-;remote tarafa gönderdik
-;Bu aşamadan sonra yapılan değişikliklerin işlemi için sadece git push kullan
+;remote tarafa gÃ¶nderdik
+;Bu aÅŸamadan sonra yapÄ±lan deÄŸiÅŸikliklerin iÅŸlemi iÃ§in sadece git push kullan
 
-;şimdi bu dosyadakii değişiklikleri tekrar remote'a gönderelim
+;ÅŸimdi bu dosyadakii deÄŸiÅŸiklikleri tekrar remote'a gÃ¶nderelim
 git add *
 git commit -m "ikinci editleme"
 git push
 
-
+; Bu satÄ±rlar github.com Ã¼zerinden eklendi (SatÄ±rlar eklendi commit yorumu ile)
+; sonrasÄ±nda local'den fetch ve pull ile yapÄ±lan deÄŸiÅŸiklikleri locale alacaÄŸÄ±z
+git fetch
+git pull
+; git fetch kullanmadan sadece git pull da kullanÄ±labilir
