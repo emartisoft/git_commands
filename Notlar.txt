@@ -43,3 +43,6 @@ git checkout -b Test
 ; Test branch eklendi local için
 ; dosyalardaki değişiklik yapıp Test branch üzerinde iken
 git add -A 
+git status
+git commit -m "Test üzerinde 2. edit"
+git push -u origin Test
