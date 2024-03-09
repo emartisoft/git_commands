@@ -28,4 +28,8 @@ git add *
 git commit -m "ikinci editleme"
 git push
 
-
+; Bu satırlar github.com üzerinden eklendi (Satırlar eklendi commit yorumu ile)
+; sonrasında local'den fetch ve pull ile yapılan değişiklikleri locale alacağız
+git fetch
+git pull
+; git fetch kullanmadan sadece git pull da kullanılabilir
