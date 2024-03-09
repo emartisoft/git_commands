@@ -1,0 +1,17 @@
+Windows üzerinde \Users\USERNAME\Documents\GitHub içinde ilgili projebize ait dizini oluþtur.
+Bu örnekte git_commands olacak.
+
+mkdir git_commands
+cd git_commands
+
+git init
+
+code . 
+;VSCode ile ilgili dosyalarýný oluþtur
+
+git status
+
+git add *
+; tüm dosyalarý commitlenmiþ hale getirmek için ekle
+; deðiþikllikleri görmek için git status kullan
+
