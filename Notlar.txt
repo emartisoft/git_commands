@@ -24,8 +24,8 @@ git add *
 ;Bu aþamadan sonra yapýlan deðiþikliklerin iþlemi için sadece git push kullan
 
 ;þimdi bu dosyadakii deðiþiklikleri tekrar remote'a gönderelim
-git commit -m "ikinci editleme"
 git add *
+git commit -m "ikinci editleme"
 git push
 
 
