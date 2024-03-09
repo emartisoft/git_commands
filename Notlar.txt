@@ -52,3 +52,9 @@ git push -u origin Test
 git checkout main
 git pull
 
+; commit geri alma
+git log
+; commitleri göster
+git revert HEAD
+;commitleri dosyada gösterip geri alır
+;local veya remotedaki
