@@ -1,4 +1,4 @@
-Windows üzerinde \Users\USERNAME\Documents\GitHub içinde ilgili projebize ait dizini oluþtur.
+Windows üzerinde \Users\USERNAME\Documents\GitHub içinde ilgili projene ait dizini oluþtur.
 Bu örnekte git_commands olacak.
 
 mkdir git_commands
@@ -14,4 +14,18 @@ git status
 git add *
 ; tüm dosyalarý commitlenmiþ hale getirmek için ekle
 ; deðiþikllikleri görmek için git status kullan
+
+ git commit -m "ilk kayýt"
+ git branch -M main
+ git remote add origin https://github.com/emartisoft/git_commands.git
+ git push -u origin main
+
+;remote tarafa gönderdik
+;Bu aþamadan sonra yapýlan deðiþikliklerin iþlemi için sadece git push kullan
+
+;þimdi bu dosyadakii deðiþiklikleri tekrar remote'a gönderelim
+git commit -m "ikinci editleme"
+git add *
+git push
+
 
