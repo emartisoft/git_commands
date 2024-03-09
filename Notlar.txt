@@ -46,3 +46,9 @@ git add -A
 git status
 git commit -m "Test üzerinde 2. edit"
 git push -u origin Test
+
+; pull request onayı ile test->main 'e merge isteğini onayladıktan sonra
+; şimdi main branch'a geçelim ve locale pull edelim
+git checkout main
+git pull
+
